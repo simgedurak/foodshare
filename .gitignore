@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Secrets and local configuration
+db.php
+*.pem
+*.key
+
+# User uploads
+uploads/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# IDE
+.vscode/
+.idea/
+
+# Dependencies
+vendor/
+node_modules/
